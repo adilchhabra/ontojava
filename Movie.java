@@ -10,6 +10,9 @@ public class Movie extends Attraction{
   		this(s,a,d);   
   		minutes=m;     
  	}     
+ 	public Movie (int m) {
+ 		minutes = m;
+ 	}
  	public static int rating () { 
   		return script + acting + direction; 
  	} 
