@@ -11,7 +11,7 @@ public class Movie extends Attraction{
   		minutes=m;     
  	}     
  	public Movie (int m) {
- 		minutes = m;
+ 		super(m);
  	}
  	public static int rating () { 
   		return script + acting + direction; 
