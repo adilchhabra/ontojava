@@ -7,7 +7,7 @@ public class Movie extends Attraction{
   		script = s; acting = a; direction = d;        
  	}   
  	 public Movie(int s, int a, int d, int m) {            
-  		script = s; acting = a; direction = d;   
+  		this(s,a,d);   
   		minutes=m;     
  	}     
  	public static int rating () { 
