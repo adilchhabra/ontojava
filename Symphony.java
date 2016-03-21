@@ -1,4 +1,4 @@
-public class Symphony extends Attraction { 
+public class Symphony extends Attraction implements RatingInterface { 
  	public int music, playing, conducting;
  	public Symphony (int m) {
  		super(m);

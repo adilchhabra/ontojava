@@ -1,4 +1,4 @@
-public class Movie extends Attraction{
+public class Movie extends Attraction implements RatingInterface{
  	public int script, acting, direction;
  	public Movie(){
  		script = 5; acting = 5; direction = 5;        
