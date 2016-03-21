@@ -1,4 +1,4 @@
-public class Attraction { 
+public abstract class Attraction { 
  // Define instance variable: 
  private int minutes; 
  // Define zero-parameter constructor: 
