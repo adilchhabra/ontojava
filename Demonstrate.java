@@ -4,6 +4,11 @@ public class Demonstrate {
   	Movie m2 = new Movie(8, 9, 6);                
   	System.out.println("The first movie rating is " + m1.rating()); 
   	System.out.println("The second movie rating is " + m2.rating());
+  	Attraction x = new Movie (7, 7, 7); 
+    System.out.println("The movie's rating is " + x.rating()); 
+    x = new Symphony(7, 7, 7);
+    System.out.println("The symphony's rating is " + x.rating()); 
+
 	}
 	
 }
