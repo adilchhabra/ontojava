@@ -15,4 +15,5 @@ public abstract class Attraction {
  public void setMinutes (int m) {
  	minutes = m;
  } 
+ public abstract int rating () ;
 } 
