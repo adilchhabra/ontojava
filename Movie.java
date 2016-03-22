@@ -8,12 +8,12 @@ public class Movie extends Attraction implements RatingInterface{
  	}   
  	 public Movie(int s, int a, int d, int m) {            
   		this(s,a,d);   
-  		minutes=m;     
+  		this.setMinutes(m);     
  	}     
  	public Movie (int m) {
  		super(m);
  	}
- 	public static int rating () { 
+ 	public int rating () { 
   		return script + acting + direction; 
  	} 
 } 
